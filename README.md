@@ -33,12 +33,3 @@ tikchbilatiwliwla was NOT found. Carry on!
 ## Note
 - The maximum length for a password is 128 characters. If a password is longer than 128 characters, it will not be checked and an error message will be printed.
 - If a password is empty, it will not be checked and an error message will be printed.
-
-
------ Not touching french ------
-# FR
-Vérifie si une liste de mot de passe a été hackée en communiquant avec l'API du site https://haveibeenpwned.com/ tout en utilisant la librairie hashlib (SHA1) pour plus de sécurité.
-Ouvrir le terminal et écrire : python chemin_program *motdepasse
-chemin_program: le chemin vers le main du program
-*motdepasse: tous les mots de passe que vous souhaitez tester séparé par un espace.
-Vous aurez besoin d'avoir python3 installé sur votre pc (pas un problème pour les utilisateurs de windows).
